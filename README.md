@@ -15,4 +15,13 @@ PyKeyLog is a lightweight, stealthy keylogger developed in Python, specifically 
 - **User-Friendly Notification System:** Displays informative messages in the console during execution, such as when logs are successfully sent or if there are issues, ensuring that users are informed of the program's status.
 - **Hidden Logging:** Logs are stored in a hidden file (.hidden_log.txt) in the user's home directory, keeping them discreet and minimizing the risk of detection.
 
-### Installation
+## Installation & Configuration
+- **Register a free SMTP server, like [Brevo](https://www.brevo.com/)**
+- **Clone the repository in your system:** `git clone https://github.com/OusCyb3rH4ck/PyKeyLog`
+- **Change directory into repository:** `cd PyKeyLog`
+- **Edit the SMTP config file (smtp.env) and put your SMTP credentials, by default it's Brevo:** `nano smtp.env`, when finished press ***CTRL+S*** then ***CTRL+X***
+- **Install the requirements:** `sudo apt update && sudo apt install -y python3-pip && sudo apt update && python3 -m pip install --upgrade -r requirements.txt`
+
+## Execution
+- `chmod +x PyKeyLog.py`
+- `./PyKeyLog.py` or `python3 PyKeyLog.py`
