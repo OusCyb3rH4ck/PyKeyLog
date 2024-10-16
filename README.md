@@ -2,6 +2,7 @@
 PyKeyLog is a lightweight, stealthy keylogger developed in Python, specifically designed for penetration testers and security professionals. This tool captures keystrokes in real-time and sends the logs securely via email at specified intervals, allowing for efficient monitoring of user activity.
 
 ## Features
+
 - **Real-Time Keystroke Logging:** Captures every keystroke in real-time, including characters, spaces, and special keys, ensuring that all user input is logged accurately.
 - **Scheduled Log Reporting:** Sends captured logs to a designated email address at user-defined intervals (default set to every 20 seconds), allowing for consistent monitoring without manual checks.
 - **Configurable SMTP Settings:** Uses environment variables from a .env file to securely store and manage SMTP credentials, ensuring that sensitive information remains protected.
